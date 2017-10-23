@@ -13,9 +13,8 @@
 	<a-scene stats embedded arjs='sourceType: webcam; detectionMode: mono; maxDetectionRate: 30; canvasWidth: 240; canvasHeight: 180'>
 
 		<!-- define the object which gonna be put on this marker  -->
-		<a-box position='0 0.5 0' material='opacity: 0.5; side: double'>
-			<a-cone color="tomato" radius-bottom="2" radius-top="0.5"></a-cone>
-		</a-box>
+		<a-cone color="tomato" position='0 0.5 0' radius-bottom="1.5" radius-top="0.5"></a-cone>
+		<a-cone color="green" position='0 1.5 0' radius-bottom=".75" radius-top="0"></a-cone>
 
 		<a-marker-camera preset='hiro'></a-marker-camera>
 	</a-scene>
